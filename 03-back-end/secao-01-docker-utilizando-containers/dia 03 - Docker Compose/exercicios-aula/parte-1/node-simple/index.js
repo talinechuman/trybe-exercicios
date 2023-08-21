@@ -1,0 +1,1 @@
+console.log('Ola, fui executado!', process.version);

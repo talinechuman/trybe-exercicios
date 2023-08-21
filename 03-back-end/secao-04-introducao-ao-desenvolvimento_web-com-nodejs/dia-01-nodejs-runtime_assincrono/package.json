@@ -1,0 +1,14 @@
+{
+  "name": "dia-01-nodejs-runtime_assincrono",
+  "version": "1.0.0",
+  "description": "Exercicios",
+  "main": "index.js",
+  "scripts": {
+    "bmi": "node ./src/bmi.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "readline-sync": "1.4.10"
+  }
+}

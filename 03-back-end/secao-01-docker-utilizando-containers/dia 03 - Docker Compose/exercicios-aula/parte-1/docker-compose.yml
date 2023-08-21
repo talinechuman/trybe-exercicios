@@ -1,0 +1,10 @@
+version: '3'
+services:
+  server:
+    build: ./node-server
+    ports:
+      - 1234:3000
+    volumes:
+      - ./node-server/index.html:/server/index.html
+  simple:
+    build: ./node-simple
